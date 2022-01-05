@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+/* navbar */
+.nav_style{
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+    
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav li a{
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:#333;
+    position: relative;
+
+}
+.navbar-nav li a:before{
+    content: "";
+    position: absolute;
+    top:100%;
+    bottom: 50px;
+    width: 0%;
+    height: 3%;
+    background: #ff7230;
+    transition: all 0.3s linear;
+
+}
+.navbar-nav li a:hover:before{
+    width: 80%;
+}
+.navbar-nav li a:hover{
+    color:#ff7230 !important;
+}
+.navbar-nav li  .active{
+    color: #ff7230 !important ;
+}
+/* navbar end */
+
+/* main header */
+.img_main{
+    padding: 30px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+.header_text{
+    font-size: 20px;
+    color: #8c8c8c;
+    margin-top: 80px;
+    line-height: 2;
+
+}
+.span_text{
+    color: #ff7230;
+}
+.btn_hire_me{
+   width: 160px;
+   height: 40px;
+   background: #ff7230;
+   font-size: 20px;
+   color: #fff;
+   border: none;
+   text-transform: capitalize;
+   outline: none;
+   transition: all 0.3s linear;
+
+}
+.btn_about_me{
+    width: 160px;
+   height: 40px;
+   color: #ff7230;
+   font-size: 20px;
+   background: #fff;
+   border: 1px solid #ff7230;
+   text-transform: capitalize;
+   outline: none;
+   transition: all 0.3s linear;
+}
+.btn_hire_me:hover{
+    background: #fff;
+    color:#ff7230 ;
+    border: 1px solid #ff7230;
+
+}
+.btn_about_me:hover{
+    background: #ff7230;
+    color: #fff;
+    border:none;
+
+}
+.header_mail{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+}
+
+.p{
+    margin-top: -20px;
+}
+.aling-items-center{
+    margin-top: 50px;
+
+}
+/* main header end */
+
+/* About section */
+.about_section{
+    padding-top: 50px;
+}
+.main_title{
+    font-family:500;
+    font-size: 80px;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+}
+.about_text{
+    margin-top: 40px !important ;
+}
+.about_text h1{
+    font-size: 40px;
+    color: #000;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.about_text p{
+    font-size: 20px;
+    color: #000;
+}
+
+/* about section end */
+/* work section */
+.work_section{
+    padding-top: 50px;
+}
+.work_section-1{
+    padding-top: 50px;
+}
+.main_title p{
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    
+}
+.w-100{
+    margin-top: 50px;
+}
+.work_section .progress{
+    width: 90%;
+    height: 10px;
+    border-radius: 7px;
+    
+}
+
+.work_section .pb_1{
+    width: 93%;
+    border-radius: 7px;
+    background-color:red;
+    
+}
+
+.work_section .pb_2{
+    width: 80%;
+    border-radius: 7px;
+    background-color:orange;
+}
+.work_section .pb_3{
+    width: 89%;
+    border-radius: 7px;
+    background-color:green;
+}
+.work_section h3{
+    position: relative;
+}
+.work_h1, .work_h2 ,.work_h3{
+    font-size: 15px;
+    
+}
+.work_h1:after{
+    content: '93%';
+    position:absolute;
+    top:5px;
+    right:60px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.work_h2:after{
+    content: '80%';
+    position:absolute;
+    top:5px;
+    right:60px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.work_h3:after{
+    content: '89%';
+    position:absolute;
+    top:5px;
+    right:60px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+/* work section end */
+
+/* Services section */
+.font-weight-bold{
+    font-weight:900;
+}
+.none{
+   list-style-type: none;
+}
+.service_section{
+    padding: 50px 0px 70px 0px;
+}
+
+.services_div{
+    border-radius: #f6f6f6;
+    padding: 20px 10px 70px 10px;
+    margin-top: 50px;
+    transition: all 0.1s linear;
+    border-radius: 15px;
+    position:relative;
+    box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+
+}
+
+.services_div:hover{
+    background: #fff;
+    box-shadow: 0 0 4px 1px gray;
+    
+}
+
+.services_div h1{
+    text-align: center;
+    font-size: 52px;
+    color: #ff7230;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    background: #ffeee6;
+}
+
+.services_div h1:hover{
+    background-color:#fff;
+    border: 1px  solid #ff7230;
+}
+.far{
+    color: #ff7230;
+
+}
+
+.services_div li{
+    text-align:left;
+    font-size: 20px;
+}
+
+/* Services Section end */
+
+/* Hire me section  */
+.hireme_section{
+    padding: 45px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0 ,0.7),rgba(0, 0, 0, 0.7)), url('../images/[Downloader.la]-61d58ad72a5cd.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.hireme_section h1{
+    font-size: 40px;
+    color: #ff7230;
+}
+
+.hireme_section p{
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.hireme_section h3{
+    font-size: 30px;
+    color:#ffffff;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+/*  Hire me section end  */
+
+/* social section */
+
+
+.socialsites_link .fa-facebook-f:hover{
+    color: #ff7230;
+}
+.socialsites_link .fa-instagram:hover{
+    color: #ff7230;
+}
+
+.socialsites_link .fa-google:hover{
+    color: #ff7230;
+}
+.socialsites_link .fa-pinterest:hover{
+    color: #ff7230;
+}
+.socialsites_link .fa-linkedin-in:hover{
+    color: #ff7230;
+}
+
+/* social section end */
+
+/* footer */
+footer{
+    width: 100%;
+    line-height: 50px;
+    background:#ff7230;
+    color:#fff;
+}
+
+/* footer end */
+@media(max-width:992px){
+    .navbar-nav{
+       margin-top: 40px; 
+       text-align: center;
+    }
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+
+    .about_text h1 {
+        font-size: 30px;
+    }
+    .about_text p {
+        font-size: 16px;
+    }
+    .main_title p {
+        font-size: 10px;
+    }
+    .work_section {
+        padding-top: 0px;
+    }
+    .hireme_section h1 {
+        font-size: 25px;
+        
+    }
+    .hireme_section p {
+        font-size: 16px;
+    }
+    .hireme_section h3 {
+        font-size: 15px;
+        color: #ffffff;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+    .work_section {
+        padding-top: 50px;
+    }
+    .work_section-1 {
+        padding-top: 0;
+    }   
+}
+@media (min-width: 750px){
+.col-md-3 {
+    width: 33% !important;
+}
+}
+
+
+
